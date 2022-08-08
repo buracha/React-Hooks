@@ -10,11 +10,12 @@ import Exemplo04_useState from './hooks/Exemplo04_useState';
 import Exemplo05_useEffect from './hooks/Exemplo05_useEffect';
 import Exemplo06_useEffect from './hooks/Exemplo06_useEffect';
 import Exemplo07_useContext from './hooks/Exemplo07_useContext';
+import Exemplo08_useRef from './hooks/Exemplo08_useRef';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Exemplo07_useContext />
+    <Exemplo08_useRef />
   </React.StrictMode>
 );
 
